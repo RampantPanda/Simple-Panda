@@ -10,7 +10,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["battery", "pulseaudio", "tray", "idle_inhibitor"],
+    "modules-right": ["battery", "pulseaudio"],
 
  // Modules configuration
 
