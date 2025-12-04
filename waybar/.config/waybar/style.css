@@ -44,7 +44,8 @@ nord15 #b48ead
     /*border: 2px solid #000000;*/
     border-radius: 0;
     padding: 2px 2px;
-	font-family: "Departure Mono", monospace;
+	font-family: "Departure Mono";
+    font-weight: bold;
     font-size: 18px;
     margin-right: 0px;
     margin-left: 0px;
