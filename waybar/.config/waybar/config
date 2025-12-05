@@ -10,7 +10,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["battery", "pulseaudio"],
+    "modules-right": ["network", "pulseaudio", "battery"],
 
  // Modules configuration
 
@@ -91,11 +91,12 @@
     },
     "battery": {
         "states": {
-            // "good": 95,
+            "good": 90,
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon} {capacity: >3}%",
+        //"format": "{icon} {capacity: >3}%",
+        "format": "{icon}",
         "format-icons": ["", "", "", "", ""]
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
@@ -105,11 +106,11 @@
     },
       "network": {
         //"interface": "wlp0s20f3", // (Optional) To force the use of this interface  "format-wifi": "  {essid}",
-        "format": "⚠Disabled",
+        "format": "󱛅",
         "format-wifi": "",
         "format-ethernet": "",
         "format-linked": "{ifname} (No IP)",
-        "format-disconnected": "⚠Disabled",
+        "format-disconnected": "󱛅",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
         "family": "ipv4",
         "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
