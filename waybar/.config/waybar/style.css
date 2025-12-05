@@ -33,6 +33,11 @@ nord13 #ebcb8b
 nord14 #a3be8c
 nord15 #b48ead
 */
+/*------------------------- 
+ Pull in colors:
+ ------------------------
+ */
+ @import url("alien-colors.css");
 
 /* -----------------------------------------------------------------------------
  * Base styles
@@ -41,7 +46,7 @@ nord15 #b48ead
 /* Reset all styles */
 
 * {
-    /*border: 2px solid #000000;*/
+    /*border: 2px solid @color-bg;*/
     border-radius: 0;
     padding: 2px 2px;
 	font-family: "Departure Mono";
@@ -53,7 +58,7 @@ nord15 #b48ead
    }
 
 window#waybar {
-    background: rgba (0,0,0,0.80); 
+    background:  @color-bg; 
 }
 
 #workspaces button {
@@ -65,22 +70,22 @@ window#waybar {
     margin-left: 0px;
     margin-top: 2px;
     border-style: solid;
-    border-color: #8c7901;
-    color: #8c7901;
+    border-color: @color-fg;
+    color: @color-fg;
     /*background: rgba (0,0,0,0.80); */
     
 }
 #workspaces button.active {
-    /*border: 2px solid #8c7901;*/
-    background: #8c7901;
-    color: #000000;
+    /*border: 2px dash @color-fg*/
+    background: @color-fg;
+    color: @color-bg;
 }
 
 #cpu, #memory, #temperature,#custom-keyboard-layout, #backlight, #tray, #window,#custom-launcher,#custom-power,#custom-updates ,#custom-network_traffic,#custom-weather{
     padding: 0 10px;
-    border: 2px solid #8c7901;
-    color: #8c7901;
-    background: #000000;
+    border: 2px solid @color-fg;
+    color: @color-fg;
+    background: @color-bg;
 }
 
 #network {
@@ -88,44 +93,45 @@ window#waybar {
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 20px;
-    border: 2px solid #8c7901;
-    color: #000000;
-    background: #8c7901;
+    border: 2px solid @color-fg;
+    color: @color-bg;
+    background: @color-fg;
 }
 #network.disabled {
-    color:#8c7901;
+    color:@color-fg;
+    background:@color-bg;
 }
 
 #network.disconnected {
-    color: #bf616a;
+    color: @color-fg;
+    background: @color-bg;
 }
 
 #clock {
 	padding: 0px 15px;
-	border-width: 2px;
-	border-right-width: 1px;
-	border-style: solid;
-	border-color: #8c7901;
-	color: #8c7901;
+	border: 4px solid @color-fg;
+	color: @color-fg;
 }
 
 #pulseaudio {
 	padding: 0px 15px;
-	border: 2px solid #8c7901;
+	border: 2px solid @color-fg;
 	border-left-width: 1px;
-	color: #8c7901;
+	color: @color-bg;
+	background: @color-fg;
+}
+#pulseaudio.muted {
+    color: @color-fg;
+    background: @color-bg;
 }
 
 #battery {
 	padding: 0px 15px;
-	border: 2px solid #8c7901;
+	border: 2px solid @color-fg;
 	border-right-width: 1px;
-	color: #8c7901;
+	color: @color-fg;
 }
 
-/* #pulseaudio.muted {
-    color: #e20548;
-}*/
 /* -----------------------------------------------------------------------------
  * Module styles
  * -------------------------------------------------------------------------- */
