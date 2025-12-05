@@ -47,3 +47,4 @@ palette = "darkcomp"
 # ¡ If either one is a directory, then both SHOULD be one. !
 # zathura = { template = 'zathura', target = '~/.config/zathura/zathurarc' }
 waybar = {template = 'waybar.template', target = '~/.config/waybar/waybar-colors.css'}
+hyprland = {template = 'hyprland.template', target = '~/.config/hypr/hyprland-colors.conf'}
