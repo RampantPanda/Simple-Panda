@@ -10,7 +10,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["network", "pulseaudio", "battery"],
+    "modules-right": ["pulseaudio","battery", "network"],
 
  // Modules configuration
 
@@ -97,7 +97,7 @@
         },
         //"format": "{icon} {capacity: >3}%",
         "format": "{icon}",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": ["", "", "", "", ""],
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         //"format-icons": ["", "", "", "", "", "", "", "", "", ""]
