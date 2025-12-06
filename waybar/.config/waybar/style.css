@@ -56,6 +56,14 @@ nord15 #b48ead
     margin-left: 0px;
     padding-bottom:2px;
    }
+   
+tooltip {
+  background: @color-bg;
+  border: 2px solid @color-fg;
+}
+tooltip label {
+  color: @color-fg;
+}
 
 window#waybar {
     background:  @color-bg; 
@@ -132,6 +140,17 @@ window#waybar {
 	color: @color-fg;
 }
 
+#bluetooth {
+	padding: 0px 15px;
+	border: 2px solid @color-fg;
+	border-left-width: 1px;
+	color: @color-fg;
+}
+
+#bluetooth.connected{
+	color: @color-bg;
+	background: @color-fg;
+}
 /* -----------------------------------------------------------------------------
  * Module styles
  * -------------------------------------------------------------------------- */
