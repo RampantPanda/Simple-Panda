@@ -10,7 +10,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio","battery", "network"],
+    "modules-right": ["pulseaudio","battery", "network", "bluetooth"],
 
  // Modules configuration
 
@@ -119,6 +119,18 @@
         //"max-length": 2,
         "on-click": "nm-connection-editor"
     },
+    "bluetooth": {
+		"format": "󰂲",
+		"format-disabled": "󰂲",
+		"format-off": "󰂲",
+		"format-on": "",
+		"format-connected": "󰂱",
+		"tooltip-format-connected": "󰂱 CONNECTED DEVICES: \n {device_enumerate}",
+		"tooltip-format-enumerate-connected": "{device_alias}",
+		"tooltip-format-disabled": "DISABLED",
+		"tooltip-format-off": "POWERED OFF",
+		"tooltip-format-on": "STANDBY"
+	},
    "custom/updates": {
        "format": "{} {icon}",
        "return-type": "json",
