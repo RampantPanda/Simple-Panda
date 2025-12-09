@@ -92,6 +92,11 @@ window#waybar {
     background: @color-bg;
     color: @color-bg;
 }
+#workspaces button.empty.active {
+    background: @color-fg;
+    color: @color-bg;
+}
+
 
 #cpu, #memory, #temperature,#custom-keyboard-layout, #backlight, #tray, #window,#custom-launcher,#custom-power,#custom-updates ,#custom-network_traffic,#custom-weather{
     padding: 0 10px;
