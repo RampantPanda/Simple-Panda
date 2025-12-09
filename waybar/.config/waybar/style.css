@@ -84,8 +84,12 @@ window#waybar {
     
 }
 #workspaces button.active {
-    /*border: 2px dash @color-fg*/
     background: @color-fg;
+    color: @color-bg;
+}
+
+#workspaces button.empty {
+    background: @color-bg;
     color: @color-bg;
 }
 
