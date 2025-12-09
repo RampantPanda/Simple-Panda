@@ -1,33 +1,45 @@
+/*------------------------- 
+ Pull in colors:
+ ------------------------*/
+@import url("alien-colors.css");
+
+/* Bar style */
 #bar {
-    margin: 0px; /* affects top/bottom & left/right alignment */
-    font-size: 16px;
-    font-family: Product Sans;
+    margin: 0;
+    font-family: "Departure Mono";
+    font-weight: bold;
 }
 
-button, image {
-    background: none;
-    border-style: none;
-    box-shadow: none;
-    color:#eceff4;
+/*Hide icons*/ 
+image {
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
+
 
 button {
-    padding-top: 10px;
-    margin: 5px
+    background: @color-bg;
+    border: 10px solid @color-fg;
+    color: @color-fg;           /* colors the Nerd Font icon + text */
+    padding: 5px 5px;
+    margin: 0;
 }
 
-button:hover {
-    background-color: rgba (255,0,0,0.5);
+button label {
+    font-family: "Departure Mono";
+    font-size: 33px;            
+    font-weight: bold;
 }
 
+button:hover,
 button:focus {
-    background-color: rgba (255,0,0,0.5);
+    background-color: @color-fg;
+    color: @color-bg;
 }
 
 grid {
-    background-color: rgba(0,0,0,0.7);
-    border-radius: 5px;
-    padding: 5px;
-    box-shadow: 0 0 50px rgba(255,0,0,0.7);
-    /* e.g. for common background to all buttons */
+    background-color: @color-bg;
+    padding: 10px;
 }
