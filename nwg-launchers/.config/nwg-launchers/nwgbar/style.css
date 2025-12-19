@@ -6,7 +6,7 @@
 /* Bar style */
 #bar {
     margin: 0;
-    font-family: "Departure Mono";
+    font-family: "ShureTechMono Nerd Font Mono";
     font-weight: bold;
 }
 
@@ -22,15 +22,14 @@ image {
 button {
     background: @color-bg;
     border: 10px solid @color-fg;
-    color: @color-fg;           /* colors the Nerd Font icon + text */
+    color: @color-fg;           
     padding: 5px 5px;
     margin: 0;
 }
 
 button label {
-    font-family: "Departure Mono";
+    font-family: "ShureTechMono Nerd Font Mono";
     font-size: 33px;            
-    font-weight: bold;
 }
 
 button:hover,

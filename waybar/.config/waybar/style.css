@@ -49,9 +49,9 @@ nord15 #b48ead
     /*border: 2px solid @color-bg;*/
     border-radius: 0;
     padding: 2px 2px;
-	font-family: "Departure Mono";
+	font-family: "ShureTechMono Nerd Font Mono";
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 0px;
     margin-left: 0px;
     padding-bottom:2px;
@@ -113,15 +113,21 @@ window#waybar {
     border: 2px solid @color-fg;
     color: @color-bg;
     background: @color-fg;
+    font-family: Terminus;
+	font-weight: bold;
 }
 #network.disabled {
     color:@color-fg;
     background:@color-bg;
+    font-family: Terminus;
+	font-weight: bold;
 }
 
 #network.disconnected {
     color: @color-fg;
     background: @color-bg;
+    font-family: Terminus;
+	font-weight: bold;
 }
 
 #clock {
@@ -136,10 +142,14 @@ window#waybar {
 	border-left-width: 1px;
 	color: @color-bg;
 	background: @color-fg;
+	font-family: Terminus;
+	font-weight: bold;
 }
 #pulseaudio.muted {
     color: @color-fg;
     background: @color-bg;
+    font-family: Terminus;
+	font-weight: bold;
 }
 
 #battery {
@@ -147,6 +157,8 @@ window#waybar {
 	border: 2px solid @color-fg;
 	border-right-width: 1px;
 	color: @color-fg;
+	font-family: Terminus;
+	font-weight: bold;
 }
 
 #bluetooth {
@@ -154,11 +166,15 @@ window#waybar {
 	border: 2px solid @color-fg;
 	border-left-width: 1px;
 	color: @color-fg;
+	font-family: Terminus;
+	font-weight: bold;
 }
 
 #bluetooth.connected{
 	color: @color-bg;
 	background: @color-fg;
+	font-family: Terminus;
+	font-weight: bold;
 }
 /* -----------------------------------------------------------------------------
  * Module styles
