@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Weyland-Yutani
+Comment=Crew expendable.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=Weyland-Yutani
+GtkTheme=Weyland-Yutani
+IconTheme=Weyland-Yutani
+MetacityTheme=Weyland-Yutani
