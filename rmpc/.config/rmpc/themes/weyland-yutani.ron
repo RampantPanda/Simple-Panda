@@ -15,13 +15,13 @@
     preview_label_style: (fg: "yellow"),
     preview_metadata_group_style: (fg: "yellow", modifiers: "Bold"),
     tab_bar: (
-        active_style: (fg: "black", bg: "blue", modifiers: "Bold"),
-        inactive_style: (),
+        active_style: (fg: "black", bg: "#a68d03", modifiers: "Bold"),
+        inactive_style: (fg: "#a68d03"),
     ),
-    highlighted_item_style: (fg: "blue", modifiers: "Bold"),
-    current_item_style: (fg: "black", bg: "blue", modifiers: "Bold"),
-    borders_style: (fg: "blue"),
-    highlight_border_style: (fg: "blue"),
+    highlighted_item_style: (fg: "#a68d03", modifiers: "Bold"),
+    current_item_style: (fg: "black", bg: "#a68d03", modifiers: "Bold"),
+    borders_style: (fg: "#a68d03"),
+    highlight_border_style: (fg: "#a68d03"),
     symbols: (
         song: "S",
         dir: "D",
@@ -116,7 +116,6 @@
                 ],
                 right: [
                     (kind: Property(Widget(ScanStatus)), style: (fg: "blue")),
-                    (kind: Property(Widget(Volume)), style: (fg: "blue"))
                 ]
             ),
             (
@@ -138,13 +137,19 @@
                     )
                 ],
                 right: [
-                    (
-                        kind: Property(Widget(States(
-                            active_style: (fg: "white", modifiers: "Bold"),
-                            separator_style: (fg: "white")))
-                        ),
-                        style: (fg: "dark_gray")
-                    ),
+                    (kind: Property(Status(RepeatV2(
+                        on_label: "RPT(Z)",
+                        off_label: "RPT(Z)",
+                        on_style: (fg: "#000000", bg: "#a68d03", modifiers: "Bold"),
+                        off_style: (fg: "#a68d03", bg: "#000000"),
+                    )))),
+                    (kind: Text(" "), style: (fg: "dark_gray")),
+                    (kind: Property(Status(RandomV2(
+                        on_label: "SHF(X)",
+                        off_label: "SHF(X)",
+                        on_style: (fg: "#000000", bg: "#a68d03", modifiers: "Bold"),
+                        off_style: (fg: "#a68d03", bg: "#000000"),
+                    )))),
                 ]
             ),
         ],
