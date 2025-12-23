@@ -40,11 +40,13 @@ palette = "darkcomp"
 # Alpha value for templating, by default 100 (no other use whatsoever)
 #alpha = 100
 
-[templates]
+[templates]  ## THESE ARE ALL COMMENTED OUT: THE IDEA IS TO RUN WALLUST ONCE TO GET THE COLORS AND THEN LEAVE THEM THE FUCK ALONE
+
 # NOTE: prefer '' over "" for paths, avoids escaping.
 # template: A RELATIVE path that points to `~/.config/wallust/template` (depends on platform)
 # target: ABSOLUTE path in which to place a file with generated templated values.
 # ¡ If either one is a directory, then both SHOULD be one. !
 # zathura = { template = 'zathura', target = '~/.config/zathura/zathurarc' }
-waybar = {template = 'waybar.template', target = '~/.config/waybar/waybar-colors.css'}
-hyprland = {template = 'hyprland.template', target = '~/.config/hypr/hyprland-colors.conf'}
+#waybar = {template = 'waybar.template', target = '~/.config/waybar/waybar-colors.css'}
+#hyprland = {template = 'hyprland.template', target = '~/.config/hypr/hyprland-colors.conf'}
+#kitty = { template = 'kitty.template', target='~/.config/kitty/colors.conf'}
