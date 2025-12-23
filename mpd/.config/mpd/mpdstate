@@ -1,0 +1,28 @@
+sw_volume: 50
+audio_device_state:1:default detected output
+state: pause
+current: 1
+time: 12.706
+random: 0
+repeat: 0
+single: 1
+consume: 1
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Corporate 09/Mindprobe/1 - Alpha 60.mp3
+1:Corporate 09/Mindprobe/2 - TrThe Beast.mp3
+2:Corporate 09/Mindprobe/3 - Almighty Me.mp3
+3:Corporate 09/Mindprobe/4 - Return Of The Medicine Man.mp3
+4:Corporate 09/Mindprobe/5 - Digital Time.mp3
+5:Corporate 09/Mindprobe/6 - The Unborn.mp3
+6:Corporate 09/Mindprobe/7 - Frog Speech.mp3
+7:Corporate 09/Mindprobe/8 - Larynxophone.mp3
+8:Corporate 09/Mindprobe/9 - Take Cover!.mp3
+9:Corporate 09/Mindprobe/10 - Just And Right.mp3
+10:Corporate 09/Mindprobe/11 - Cyan.mp3
+11:Corporate 09/Mindprobe/12 - Alphabets Of Unreason.mp3
+12:Corporate 09/Mindprobe/13 - Track 13.mp3
+playlist_end
